@@ -53,13 +53,16 @@ const logout = () => {
                                     Dashboard
                                 </NavLink>
                                 <NavLink :href="route('dashboard')">
+                                    Transactions
+                                </NavLink>
+                                <NavLink :href="route('dashboard')">
                                     Sales
                                 </NavLink>
                                 <NavLink :href="route('dashboard')">
-                                    Inventory
+                                    Finances
                                 </NavLink>
                                 <NavLink :href="route('dashboard')">
-                                    Finances
+                                    Inventory
                                 </NavLink>
                                 <NavLink :href="route('dashboard')">
                                     Catalog
@@ -206,6 +209,21 @@ const logout = () => {
                     <div class="pt-2 pb-3 space-y-1">
                         <ResponsiveNavLink :href="route('dashboard')" :active="route().current('dashboard')">
                             Dashboard
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('dashboard')">
+                            Transactions
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('dashboard')">
+                            Sales
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('dashboard')">
+                            Finances
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('dashboard')">
+                            Inventory
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('dashboard')">
+                            Catalog
                         </ResponsiveNavLink>
                     </div>
 
